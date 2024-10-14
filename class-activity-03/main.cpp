@@ -23,7 +23,7 @@ int main() {
     int die1 = (rand() % (maxValue - minValue + 1)) + minValue;
     int die2 = (rand() % (maxValue - minValue + 1)) + minValue;
 
-    // Output the result
+    
     cout << "Die 1: " << die1 << ", Die 2: " << die2 << endl;
 
     return 0;
